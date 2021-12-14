@@ -42,8 +42,8 @@ app.put('/api/COlevel/', (req, res) =>
        res.status(400).send('Wrong value of the sensor');
    }
       
-    sensor.value = req.body.value;  //update COlevel
-    res.status(200).send(sensor);    //return new COlevel
+    sensors.value = req.body.value;  //update COlevel
+    res.status(200).send(sensors);    //return new COlevel
 });
 
 
