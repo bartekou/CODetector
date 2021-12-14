@@ -2,10 +2,7 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 
-const sensors  = [
-  {id: 1, name: 'prototyp1', value: 0},
-  {id: 2, name: 'prototyp2', value: 0},
-];
+const sensors  =  {id: 1, name: 'prototyp1', value: 0};
 
 app.get('/api/COlevel/', (req, res) =>
 {
