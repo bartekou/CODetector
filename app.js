@@ -28,7 +28,7 @@ app.get('/api/COlevel/', (req, res) =>
 
 //app.post();
 
-app.put('/api/COlevel', (req, res) =>
+app.put('/api/COlevel/', (req, res) =>
 {
     //check the sensor
     // if doesn't exist return 404
